@@ -80,6 +80,7 @@ console.log(desconto)
 */
 
 //Tipos Primitivos
+/*
 const preco = 19.9;
 console.log( typeof preco);
 
@@ -94,3 +95,91 @@ console.log(typeof vazio);
 
 let indefinido;
 console.log(typeof indefinido);
+*/
+
+
+//Strings e Template Literals
+/*
+const nome1 = "Lucas";
+const nome2 = 'Maria'
+const nome3 = `João`
+const idade = 16;
+
+const nomeCompleto = "Guilherme Rodrigues Galutti"
+
+console.log(nomeCompleto.length);
+console.log(nomeCompleto.toUpperCase ());
+console.log(nomeCompleto.toLowerCase());
+
+console.log(`Olá, meu nome é ${nomeCompleto} e tenho ${idade} anos.`)
+*/
+
+//Conversões de Tipo
+/*
+console.log(Number("123"));
+console.log(parseInt("10.9"));
+console.log(parseFloat("10.9"));
+console.log(String(123));
+
+console.log(Boolean(0));
+console.log(Boolean(1));
+console.log(Boolean(""));
+
+const texto1 = prompt("digite um número:");
+const texto = Number(prompt("digite um número"));
+
+console.log(texto + 5);
+*/
+
+//Arredondando e formatando números
+/*
+const preco = 19.987;
+
+console.log(preco.toFixed(2));
+console.log(Math.round(preco));
+console.log(Math.floor(preco));
+console.log(Math.ceil(preco));
+*/
+
+//Operadores Aritméticos
+/*
+console.log(2 +3);
+console.log(5 - 2 );
+console.log(4 * 2);
+console.log(10 / 2);
+console.log(10 % 3);
+console,log(2** 3);
+ */
+
+//Operadores de comparaçáo
+/*
+console.log(5 == "5") //igual frouxo
+console.log(5 == 5); //igual frouxo
+
+console.log(5 === "5") //igual estrito
+console.log(5 === 5 ) //igual estrito
+
+console.log(5 != "5") //diferente frouxo
+console.log(5 != 7) //diferente frouxo
+
+console.log(5 !== "5") //diferente estrito
+console.log(5 !== 7) //diferente estrito
+*/
+
+// média de duas notas
+/*
+const n1 = Number(prompt("Primeira nota:"));
+const n2 = Number(prompt("Segunda nota:"));
+
+const media = (n1 + n2) /2;
+
+console.log(`media: ${media.toFixed(1)}`);
+*/
+
+//IMC (Indice de massa Corporal)
+const peso = Number(prompt("digite seu peso (kg):"));
+const altura = Number(prompt ("Altura (m):"));
+
+const imc = peso / (altura ** 2);
+
+console.log(`IMC: ${imc.toFixed(2)}`);
