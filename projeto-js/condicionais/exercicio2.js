@@ -112,15 +112,26 @@ Acesso liberado se (usuário é `admin` OU `gerente`) E senha é `1234`.
 
 // **Exemplo:** `4`, `9` e `7` → `O maior número é: 9`
 
-const num1 = Number(prompt("digite o primeiro valor "));
-const num2 = Number(prompt ("digite o segundo valor"));
-const num3 = Number(prompt("digite o terceiro valor "));
+// const num1 = Number(prompt("digite o primeiro valor "));
+// const num2 = Number(prompt ("digite o segundo valor"));
+// const num3 = Number(prompt("digite o terceiro valor "));
 
-if (Number.isNaN(num1) || Number.isNaN(num2) || Number.isNaN(num3)) {
-    console.log("Números inválidos.");
-} else{
-    let maior = num1;
-    if (num2 > maior) maior = num2;
-    if (num3 > maior) maior = num3;
-    console.log("O maior número é: " + maior)
-}
+// if (Number.isNaN(num1) || Number.isNaN(num2) || Number.isNaN(num3)) {
+//     console.log("Números inválidos.");
+// } else{
+//     let maior = num1;
+//     if (num2 > maior) maior = num2;
+//     if (num3 > maior) maior = num3;
+//     console.log("O maior número é: " + maior)
+
+        
+// Peça dois números e uma operação (+, -, *, /). Use switch para calcular, com default para operações invá.lidas e checagem de divisão por zero
+
+const nun1 = Number(prompt("digite o primeiro número"));
+const nun2 = Number(prompt("digite o segundo número"));
+const operação = prompt("digite a operação (+, -, *, /):");
+let resultado;
+
+if (Number.isNaN(nun1)|| Number.isNaN(nun2) ) {
+}else hn
+
