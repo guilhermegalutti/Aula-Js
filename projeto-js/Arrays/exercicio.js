@@ -229,14 +229,14 @@
 
 // const primeiro = nums.find(n => n > 10);
 
-	Dado um array de pessoas com nome e idade, ache a pessoa chamada "Bruno".
-const pessoas = [
-  { nome: "Ana", idade: 20 },
-  { nome: "Bruno", idade: 17 },
-  { nome: "Carla", idade: 30 },
-]
+// 	Dado um array de pessoas com nome e idade, ache a pessoa chamada "Bruno".
+// const pessoas = [
+//   { nome: "Ana", idade: 20 },
+//   { nome: "Bruno", idade: 17 },
+//   { nome: "Carla", idade: 30 },
+// ]
 
 
-const fila= ["Ana", "Bia","Caio"];
-const numerada = fila.map((nome, index) => `${index + 1}. ${nome}`);
-console.log(nomes);
+// const fila= ["Ana", "Bia","Caio"];
+// const numerada = fila.map((nome, index) => `${index + 1}. ${nome}`);
+// console.log(nomes);
